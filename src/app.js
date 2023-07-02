@@ -1,13 +1,13 @@
 function FormDate(timestamp) {
   let date = new Date(timestamp);
-  let hours = date.getHours(); 
-if (hours < 10) {
+  let hours = date.getHours();
+  if (hours < 10) {
     hours = `0${hours}`;
-}
-let minutes = date.getMinutes();
-if (minutes <10> {
+  }
+  let minutes = date.getMinutes();
+  if (minutes < 10) {
     minutes = `0${minutes}`;
-}
+  }
   let days = [
     "Monday",
     "Tuesday",
